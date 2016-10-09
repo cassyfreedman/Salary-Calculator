@@ -5,11 +5,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+       
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Simple Salary Calculator</title>
+        <link rel="stylesheet" type="text/css" href="./css/salary.css" />
+        
     </head>
         <body>
         <h1>Simple Salary Calculator</h1>
+        <hr>
         <form name="salaryCalculator" action="results.jsp" method="post">
             <table>
                 <tbody>

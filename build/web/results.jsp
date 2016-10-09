@@ -3,8 +3,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Salary Information</title>
+        <title>Simple Salary Calculator</title>
+        <link rel="stylesheet" href="./css/salary.css" type="text/css"/>
     </head>
     
     <%
@@ -50,7 +52,7 @@
     %>
     <body>
         <h1>Salary Information</h1>
-        
+        <hr>
         <table border="1">
             <tbody>
                 <tr>
