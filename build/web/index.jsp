@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : Oct 9, 2016, 2:15:34 PM
-    Author     : cassyfreedman
---%>
+
 <%@page import="java.util.Date" %>
 <%@page import="java.text.SimpleDateFormat" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -23,10 +19,36 @@
     %>    
     
     <body>
-        <h1>Hello World!</h1>
-        <p> Today is: <%= today %>
-        <p> Today is: <%= ddMMyyyyToday %>    
-        <p> Today is: <%= MMddyyyyToday%>
-      
+        <h1>Salary Calculator</h1>
+        <form name="salaryCalculator" action="results.jsp" method="post">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Hours Worked:</td>
+                        <td><input type="text" name="hoursWorked" value="" size="50"</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Hourly Pay:</td>
+                        <td><input type="text" name="hourlyPay" value="" size="50"</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Pre-tax Deduct:</td>
+                        <td><input type="text" name="preTaxDeduct" value="" size="50"</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Post-tax Deduct:</td>
+                        <td><input type="text" name="Post tax Deduct" value="" size="50"</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            
+            <input type="reset" value="Clear" id="clear">
+            <input type="submit" value="Submit" id="submit">
+            
+        </form>
     </body>
 </html>
