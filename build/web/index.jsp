@@ -6,7 +6,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Salary Calculator</title>
+        <title>Simple Salary Calculator</title>
     </head>
     <%
         Date today = new Date();
@@ -19,7 +19,7 @@
     %>    
     
     <body>
-        <h1>Salary Calculator</h1>
+        <h1>Simple Salary Calculator</h1>
         <form name="salaryCalculator" action="results.jsp" method="post">
             <table>
                 <tbody>
@@ -40,7 +40,7 @@
                     
                     <tr>
                         <td>Post-tax Deduct:</td>
-                        <td><input type="text" name="Post tax Deduct" value="" size="50"</td>
+                        <td><input type="text" name="postTaxDeduct" value="" size="50"</td>
                     </tr>
                     
                 </tbody>
